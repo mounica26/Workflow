@@ -1,5 +1,5 @@
 Feature: Login to Facebook
-  @smoke
+
   Scenario: Successful login with valid credentials
     Given I am on the Facebook login page
     When I enter a valid username and password

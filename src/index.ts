@@ -13,4 +13,7 @@ const commonCommand = "--require ts-node/register \
     smoke : `${commonCommand} --tags @smoke`,
    "cucumberWithTS": `cucumber-js ${commonCommand}`,
    "cucumber": `npx cucumber-js && ts-node ./src/index.ts`
+
  };
+
+ 
